@@ -1,0 +1,24 @@
+!!python/object:argparse.Namespace
+batch_size: 2
+compress_ratios: '22488'
+cond_disc: false
+data_path: !!python/object/apply:pathlib.PosixPath
+- /
+- home
+- b073040018
+- Datasets
+downsamp_factor: 4
+epochs: 3000
+lambda_feat: 10
+load_path: logs-all/weights
+log_interval: 100
+n_layers_D: 4
+n_residual_layers: 1
+n_test_samples: 8
+ndf: 16
+ngf: 32
+num_D: 3
+project: tsmnet-all
+save_interval: 1000
+save_path: logs-all2
+seq_len: 8192
