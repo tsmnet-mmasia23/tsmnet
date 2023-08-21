@@ -1,6 +1,6 @@
 # TSM-Net
 
-First download the pre-trained model from [here](https://huggingface.co/spaces/tsmnet-mmasia23/demo/tree/main/weights) and place it under the `weights` directory. Then run
+First download the pre-trained models from [here](https://huggingface.co/spaces/tsmnet-mmasia23/demo/tree/main/weights) and place it under the `weights` directory. Then run
 ```
 python app.py
 ```
